@@ -1,0 +1,17 @@
+p.lead {
+  font-weight: bold;
+  color: #000; }
+  p.lead span {
+    color: red;
+    font-weight: bold; }
+
+#main-footer .fa-github:hover {
+  color: #00ffff;
+  font-size: 22px; }
+
+#main-footer .fa-tree {
+  color: green; }
+
+#main-footer .fa-tree:hover {
+  color: #00ffff;
+  font-size: 23px; }

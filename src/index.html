@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA Compatible" content="ie=edge"> 
+        <title>Search Tube</title>
+        
+        <link rel="stylesheet" href="css/font-awesome.min.css"/>
+        <link rel="stylesheet" href="css/bootstrap.css"/>
+        <link rel="stylesheet" href="css/style.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">
+    </head>
+    
+    <body>
+        
+        <div class="container mb-5">
+            <div class="overlay">
+                <div class="text-left py-2 m-5">
+                    <h1 class="display-3 text-danger">Search Tube </h1>
+                    <p class="lead text-dark">Search all <span>You</span>Tube videos </p>
+                    <div >
+                        <form id="search-form" class="search-form input-group" onsubmit="return search()"> 
+                            <input type="search" id="query" class="search-field form-control form-contorl-sm" placeholder="Search YouTube">
+                          
+                            <span class="input-group-addon btn-lg">
+                                <i class="fa fa-search"></i>
+                            </span>
+                        </form>
+                    </div>
+                    <ul class="list-group my-3" id="results">
+
+                    </ul>
+                    <ul id="buttons" class="pagination my-3">
+
+                    </ul>
+                </div>
+            </div>
+            <br> 
+
+            <footer id="main-footer" class="bg-dark text-center fixed-bottom">
+                <div class="row">
+                    <div class="col p-2 my-2">
+                        <p class="text-light">Copyright 2018 &copy; <a href="#" ><span class="fa fa-tree"></span></a> Oak Dev team
+                        <a href="http://github.com/strale-bandzi" class="text-white"><span class="fa fa-github"></span></a> @strale-bandzi </p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+        <script src="js/jquery.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+    </body>
+</html>
